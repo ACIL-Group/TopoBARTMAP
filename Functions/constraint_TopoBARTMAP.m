@@ -1,0 +1,4 @@
+function [c, ceq] = constraint_TopoBARTMAP(x, nSamples_A, nSamples_B)
+    c = [x(3) - x(4)*nSamples_A; x(7) - x(8)*nSamples_B];
+    ceq = [];
+end
