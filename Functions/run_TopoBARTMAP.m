@@ -1,4 +1,4 @@
-Vfunction [y, TBM] = run_TopoBARTMAP(x, data, classes)
+function [y, TBM] = run_TopoBARTMAP(x, data, classes)
 
 %% Data info
     [nSamples_B, nSamples_A] = size(data);
