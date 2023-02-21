@@ -9,7 +9,8 @@ Use the following citation:
 
 # Citing
 
-If you use TopoBARTMAP in your research, please cite the TopoBARTMAP paper.
+If you use TopoBARTMAP in your research, please cite the [TopoBARTMAP paper](https://doi.org/10.1016/j.neunet.2022.12.010).
+*Yelugam, R., da Silva, L.E.B. and Wunsch II, D.C., 2023. Topological biclustering ARTMAP for identifying within bicluster relationships. Neural Networks, 160, pp.34-49.*
 
 In BibTeX format:
 
