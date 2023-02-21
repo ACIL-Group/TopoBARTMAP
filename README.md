@@ -5,7 +5,11 @@
 
 # Quick Start
 
-Use the following citation:
+## Installation
+Clone the code to needed folder and add to the path,
+```
+> addpath("Classes","Evaluation","Functions")
+```
 
 # Citing
 
