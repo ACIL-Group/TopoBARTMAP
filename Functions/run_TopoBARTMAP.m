@@ -40,7 +40,6 @@ function [y, TBM] = run_TopoBARTMAP(x, data, classes)
     perf = valid_external(classes, TBM.TAa.Label(1)');  % compute external CVI [Rand; AR; Jac; FM]
 
 %% Return fitness value [Rand; AR; Jac; FM]
-    y = -perf(4);
+    y = -perf(2);
     
-
 end
