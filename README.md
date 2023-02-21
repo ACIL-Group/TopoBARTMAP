@@ -12,6 +12,8 @@ Use the following citation:
 If you use TopoBARTMAP in your research, please cite the TopoBARTMAP paper.
 
 In BibTeX format:
+
+```tex
 @article{YELUGAM202334,
 title = {Topological biclustering ARTMAP for identifying within bicluster relationships},
 journal = {Neural Networks},
@@ -24,3 +26,4 @@ url = {https://www.sciencedirect.com/science/article/pii/S0893608022005020},
 author = {Raghu Yelugam and Leonardo Enzo {Brito da Silva} and Donald C. {Wunsch II}},
 keywords = {Biclustering, Topological data analysis, Adaptive resonance theory (ART), Gene expression, Gene Co-expression}
 }
+```
