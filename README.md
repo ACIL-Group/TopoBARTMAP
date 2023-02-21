@@ -6,10 +6,14 @@
 # Quick Start
 
 ## Installation
-Clone the code to needed folder and add to the path,
+Clone the code to needed folder and add to the path in MATLAB,
 ```
-> addpath("Classes","Evaluation","Functions")
+> addpath("Classes","Evaluation","Functions");
 ```
+
+## Usage
+**Input Data**
+The data is assumed to be a matrix of shape #featuresX#observations, ie., features/genes are assumed to be the rows, whilst observations are assumed to be columns. 
 
 # Citing
 
