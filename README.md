@@ -10,10 +10,23 @@ Clone the code to needed folder and add to the path in MATLAB,
 ```
 > addpath("Classes","Evaluation","Functions");
 ```
+## Requirements
+This work assumes that [CVAP: Cluster Validity Analysis Platform](https://www.mathworks.com/matlabcentral/fileexchange/14620-cvap-cluster-validity-analysis-platform-cluster-analysis-and-validation-tool) is assumed to be installed.
 
 ## Usage
-**Input Data**
-The data is assumed to be a matrix of shape #featuresX#observations, ie., features/genes are assumed to be the rows, whilst observations are assumed to be columns. 
+*Input Data*: The data is assumed to be a matrix of shape #observationsX#features, ie., features/genes are assumed to be the columns, whilst observations are assumed to be rows. This is representation of data is different from how most gene expression data sets are stored in Gene Expression Omnibus (GEO), where data is a matrix of shape #genesX#observations.
+
+*Classes*: If ground truth is available for the observations, then the clustering performance can be evaluated using external cluter validity index Adujsted Rand Index. Please refer to CVAP for further details.
+
+### With classes
+An example run file, *run_TopoBARTMAP.m* is provided in **Functions** to use with gene expression data from GEO. This run file assumes data is of shape #genesX#observations. *run_TopoBARTMAP* returns an instance of TopoBARTMAP and the indices value.
+```
+> [y,TBM] = run_TopoBARTMAP(data,classes);
+```
+
+### Without classes
+run 
+
 
 # Citing
 
